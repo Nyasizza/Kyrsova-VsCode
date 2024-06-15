@@ -1,0 +1,216 @@
+@media(max-width:1500px){
+    .name-lastname{
+        flex-wrap: wrap;
+    }
+    .name + .lastname{
+        margin-left: 0;
+    }
+    .email-phone{
+        flex-wrap: wrap;
+    }
+    .email + .tel{
+        margin-left: 0;
+    }
+}
+    
+
+@media(max-width:1250px){
+    .header-block{
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+    .header-content-right{
+        margin-top: 40px;
+    }
+}
+
+@media(max-width:1060px){
+    .join-block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .join-right{
+        margin-top: 0;
+        text-align: center;
+    }
+
+    /*block content*/
+
+    .raster-block{
+        flex-direction: column;
+        text-align: center;
+    }
+    .archiv-block{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .example-block{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media(max-width:800px){
+    .footer-logo{
+        display: none;
+    }
+    .join-left img{
+        max-width: 450px;
+    }
+}
+
+@media(max-width:699px){
+    .footer-links{
+        display: none;
+    }
+    .footer-block-2{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-block{
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .raster,
+    .raster-archiv,
+    .example{
+        padding: 90px 0;
+    }
+
+}
+@media(max-width:660px){
+    .header-title{
+        padding-top:50px;
+        font-size: 60px;
+    }
+    .header-subtitle{
+        font-size: 25px;
+        padding-bottom: 40px;
+    }
+}
+
+
+
+@media(max-width:800px){
+    .menu-btn {
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 20px;
+        cursor: pointer;
+        z-index: 1000;
+        position: relative;
+    }
+    
+    .btn-line {
+        width: 100%;
+        height: 2px;
+        background-color: black;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .name-lastname input{
+        width: 350px;
+    }
+    .email-phone input{
+        width: 350px;
+    }
+    .join-left img{
+        width: 350px;
+    }
+
+
+    .raster-left h4,
+    .archiv-right h4,
+    .example-left h4{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .raster-text p,
+    .archiv-right p,
+    .example-left p{
+        font-size: 16px;
+    }
+
+
+    .raster,
+    .raster-archiv,
+    .example{
+        padding: 40px 0;
+    }
+}
+@media screen and (max-width: 370px){
+    .name-lastname input{
+        width: 250px;
+    }
+    .email-phone input{
+        width: 250px;
+    }
+    .join-left img{
+        max-width: 250px;
+    }
+    .join-h2{
+        font-size: 22px;
+    }
+
+
+    .ft-c-local,
+    .ft-c-email,
+    .ft-c-tel{
+        font-size: 14px;
+    }
+    .header-title{
+        font-size: 40px;
+    }
+    .header-subtitle{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .header-btn a{
+        padding: 16px 10px;
+    }
+}
+
+
+
+/*burger-menu*/
+@media screen and (max-width: 768px) {
+    .menu-btn {
+        display: flex;
+    }
+    
+    .nav {
+        display: none;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .nav-item {
+        padding: 10px 0;
+    }
+
+    .nav-link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .open {
+        display: block; 
+    }
+}
+
+
